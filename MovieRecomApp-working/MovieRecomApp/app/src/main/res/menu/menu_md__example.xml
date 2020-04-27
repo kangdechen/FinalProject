@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/mrb_star_icon_black_36dp"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+
+    <!--右侧添加操作条目-->
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="add"
+        app:showAsAction="ifRoom" />
+
+    <!--右侧设置条目，收起，不显示-->
+    <item
+        android:id="@+id/action_setting"
+
+        android:title="menu_setting"
+        app:showAsAction="never" />
+
+    <!--右侧设置帮助条目，收起，不显示-->
+    <item
+        android:id="@+id/action_help"
+
+        android:title="menu_help"
+        app:showAsAction="never" />
+
+    <!--作者：chaychan-->
+    <!--链接：https://www.imooc.com/article/23243-->
+    <!--来源：慕课网-->
+    <!--本文原创发布于慕课网 ，转载请注明出处，谢谢合作-->
+</menu>
